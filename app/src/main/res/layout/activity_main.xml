@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef820e"
+    android:orientation="vertical"
+    tools:context="com.example.mycomputer.asuper.MainActivity">
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="#141515"
+        android:text="welcom_to_the_supermarket"
+        android:textColor="#edf0f4"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edUserName"
+        android:textColor="#141515"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:hint="Enter the User Name" />
+
+    <EditText
+        android:id="@+id/edUserPass"
+        android:textColor="#141515"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:hint="Enter the User Password" />
+
+    <RadioGroup
+        android:layout_weight="100"
+        android:orientation="horizontal"
+        android:id="@+id/grRadio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_weight="50"
+            android:text="Admin"
+            android:id="@+id/rAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_weight="50"
+            android:text="user"
+            android:id="@+id/rUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <Button
+
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/btnSubmit"
+        android:text="enter"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

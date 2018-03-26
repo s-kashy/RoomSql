@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef820e"
+    android:orientation="vertical"
+    tools:context="com.example.mycomputer.asuper.Activitiy.AddPruductActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#141415"
+        android:textColor="#f6f8fa"
+        android:text="ADD A NEW PRODUCT"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:hint="Name of product" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/edPrice"
+        android:layout_marginBottom="20dp"
+        android:hint="Enter The price"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/categoyes" />
+
+    <Spinner
+        android:id="@+id/spUnit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/unit" />
+
+    <Button
+
+        android:id="@+id/btnSubmit"
+        android:background="#141415"
+        android:textColor="#f6f8fa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:text="submit" />
+</LinearLayout>

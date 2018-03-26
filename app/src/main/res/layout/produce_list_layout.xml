@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:background="#4e5d6b"
+
+    tools:context="com.example.mycomputer.asuper.Activitiy.AddPruductActivity">
+    <LinearLayout
+        android:id="@+id/linePro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#0c0d0d"
+
+            android:id="@+id/txName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="cllllll" />
+        <TextView
+            android:textColor="#0c0d0d"
+
+            android:layout_marginLeft="40dp"
+            android:id="@+id/txPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txName"
+            android:hint="ssss" />
+        <TextView
+            android:textColor="#0c0d0d"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/txUnit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txPrice"
+            android:hint="ssss" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

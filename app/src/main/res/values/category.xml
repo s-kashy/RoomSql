@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array nameOfCategory="category" name="category">
+        <item>milk</item>
+        <item>fish</item>
+        <item>meat</item>
+        <item>snack</item>
+        <item>bread</item>
+        <item>cleaning supply</item>
+    </string-array>
+</resources>

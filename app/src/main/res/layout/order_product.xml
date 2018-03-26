@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4e5d6b">
+
+    <TextView
+        android:id="@+id/txName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="text"
+        android:textColor="#0c0d0d"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txName"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="text"
+        android:textColor="#0c0d0d"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txPrice"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="text"
+        android:textColor="#0c0d0d"
+        android:textSize="30sp" />
+
+    <!--<NumberPicker-->
+        <!--android:id="@+id/numPic"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_below="@+id/txUnit"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="30dp" />-->
+    <EditText
+        android:textSize="20sp"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/numPic"
+        android:layout_below="@+id/txUnit"
+        android:hint="pick amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numPic"
+        android:layout_centerHorizontal="true"
+        android:text="cancel"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCancel"
+        android:layout_marginTop="30dp"
+        android:text="Enter"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp" />
+
+</RelativeLayout>
